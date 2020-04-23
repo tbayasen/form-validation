@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="inputStructureContainer">
+        <h2>Password Requirements</h2>
+        <ul class="passwordStructureList">
+          <li>between 7 and 16 letters</li>
+          <li>contain only letters, numbers, and underscores</li>
+          <li>first character must be a letter</li>
+        </ul>
+      </div>
+      <div class="form">
+        <h2>Sign Up</h2>
+        <form name="signUpForm" id="form" action="/">
+          <input
+            type="text"
+            id="userEmail"
+            name="email"
+            placeholder="Email"
+          /><br />
+          <div id="emailErr"></div>
+
+          <input
+            type="password"
+            id="userPass"
+            name="password"
+            placeholder="Password"
+          /><br />
+          <div id="passErr"></div>
+
+          <button id="submitBtn">Submit</button>
+        </form>
+        <button id="redirectPage">Login</button>
+      </div>
+    </div>
+    <script src="js/signup.js"></script>
+  </body>
+</html>
