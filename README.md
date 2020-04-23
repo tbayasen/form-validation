@@ -10,7 +10,7 @@ Simply follow the link, go to the sign-up page and enter you're information. Aft
 
 ### Link
 
-https://tyronebayasen99.github.io/form-validation/
+https://tbayasen-form-validation.herokuapp.com/
 
 ### Build With
 
