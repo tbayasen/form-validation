@@ -12,7 +12,7 @@ Simply follow the link, go to the sign-up page and enter you're information. Aft
 
 https://tbayasen-form-validation.herokuapp.com/
 
-### Build With
+### Built With
 
 <ul>
     <li>HTML5</li>
